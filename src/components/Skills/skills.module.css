@@ -1,0 +1,55 @@
+.skillsheading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 44px 0;
+}
+
+.skillContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 120px;
+  padding: 44px;
+  margin-left: 64px;
+  margin-top: 44px;
+  flex-wrap: wrap;
+}
+
+.skillicons {
+  font-size: 74px;
+  margin-bottom: 4px;
+  color: #0aceff;
+}
+
+.skillcard {
+  margin-top: 50px;
+  width: 180px;
+  height: 148px;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.3s;
+  box-shadow: rgba(149, 157, 165, 0.2) 10px 16px 24px;
+  border-radius: 14px;
+}
+
+.skillcard:hover {
+  transform: scale(1.1);
+  box-shadow: -158px -116px 15px -158px rgba(0, 0, 0, 0.1),
+    25px 0px 20px -20px rgba(0, 0, 0, 0.1),
+    0px 25px 20px -20px rgba(0, 0, 0, 0.1),
+    -25px 0px 20px -20px rgba(0, 0, 0, 0.1);
+}
+
+.border {
+  height: 3px;
+  width: 54px;
+  margin: -40px auto;
+  background-color: #0aceff;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .skillContainer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

@@ -1,0 +1,50 @@
+.Contactsection {
+  margin: 120px;
+}
+
+.formheading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.formContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 64px;
+}
+
+.forminput input {
+  border: 2px solid #0aceff;
+  border-radius: 24px;
+  padding: 12px;
+}
+
+input:focus {
+  border-color: #0aceff;
+}
+
+.formContainer textarea {
+  border: 2px solid #0aceff;
+  border-radius: 12px;
+  padding: 9px;
+}
+
+.submit {
+  background-color: #0aceff;
+  border-radius: 24px;
+  padding: 12px;
+  border: none;
+  width: 120px;
+}
+
+.border {
+  height: 3px;
+  width: 74px;
+  margin: 2px auto;
+  background-color: #0aceff;
+}

@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ProjectSection {
+  margin-top: 100px;
+}
+
+.ProjectContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 120px;
+  margin: 94px;
+}
+
+.Projectcard {
+  margin-top: 50px;
+  width: 300px;
+  height: 220px;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.3s;
+  box-shadow: rgba(149, 157, 165, 0.2) 10px 16px 24px;
+  border-radius: 14px;
+}
+
+.Projectcard:hover {
+  transform: scale(1.1);
+  box-shadow: -158px -116px 15px -158px rgba(0, 0, 0, 0.1),
+    25px 0px 20px -20px rgba(0, 0, 0, 0.1),
+    0px 25px 20px -20px rgba(0, 0, 0, 0.1),
+    -25px 0px 20px -20px rgba(0, 0, 0, 0.1);
+}
+
+.Projecticon {
+  font-size: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0aceff;
+}
+
+.Projectheading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 24px 0;
+}
+.Projectinfo {
+  margin-top: 24px;
+}
+.border {
+  height: 3px;
+  width: 80px;
+  margin: -20px auto;
+  background-color: #0aceff;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .ProjectContainer {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,30 @@
+.Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+  background-color: #8ae8ff;
+  overflow-x: hidden;
+}
+
+.ImageContainer img {
+  width: 400px;
+  height: 400px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .Container {
+    flex-direction: column;
+    overflow-x: hidden;
+    gap: 44px;
+  }
+  .ImageContainer img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .textContainer h1 {
+    font-size: 32px;
+    margin-top: 44px;
+  }
+}
