@@ -1,5 +1,6 @@
 import "./App.css";
 import Hero from "./components/hero/heroSection";
+import Education from "./components/Education/Education";
 import Skills from "./components/Skills/skills";
 import Project from "./components/Projects/project";
 import Footer from "./components/Footer/footer";
@@ -13,6 +14,7 @@ const App = () => {
       <Router>
         <Navbar />
         <Hero />
+        <Education />
         <Skills />
         <Project />
         <Contact />
